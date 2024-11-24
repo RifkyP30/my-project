@@ -4,6 +4,7 @@ public class FaktorBilangan {
   public static void main(String[] args) {
     Scanner userInput = new Scanner(System.in);
     // program untuk mencari faktor dari sebuah bilangan
+    System.out.println("=== Program mencari faktor dari 2 bilangan ===\n");
     System.out.print("Masukkan bilangan: ");
     int bilangan = userInput.nextInt();
 
@@ -12,7 +13,7 @@ public class FaktorBilangan {
     userInput.close();
 
   }
-  // membuat fungsi untuk mencari faktor
+  // fungsi untuk mencari faktor
   public static void cariFaktor(int bilangan) {
     // mencari faktor
     System.out.print("Faktor: ");
