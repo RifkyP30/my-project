@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class FaktorBilangan {
   public static void main(String[] args) {
     Scanner userInput = new Scanner(System.in);
-
+    // program untuk mencari faktor dari sebuah bilangan
     System.out.print("Masukkan bilangan: ");
     int bilangan = userInput.nextInt();
 
     cariFaktor(bilangan);
+
+    userInput.close();
 
   }
   // membuat fungsi untuk mencari faktor
